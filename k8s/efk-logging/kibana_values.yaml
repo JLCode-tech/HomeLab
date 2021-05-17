@@ -1,0 +1,11 @@
+#resources:
+#  requests:
+#    cpu: "100m"
+#    memory: "512M"
+#  limits:
+#    cpu: "100m"
+#    memory: "512M"
+
+service:
+  type: LoadBalancer
+  port: 5601
